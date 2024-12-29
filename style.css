@@ -1,3 +1,4 @@
+/* General Styles */
 body {
     font-family: 'Letter Gothic', serif;
     line-height: 1.6;
@@ -7,7 +8,7 @@ body {
     background-color: #f4f4f4;
 }
 
-header, section, footer {
+header, footer {
     width: 80%;
     margin: auto;
     padding: 20px;
@@ -17,6 +18,12 @@ header, section, footer {
     margin-top: 20px;
 }
 
+footer {
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Shared Styles */
 h1, h2 {
     color: #444;
 }
@@ -40,14 +47,116 @@ li {
     padding: 5px 0;
 }
 
-footer {
-    text-align: center;
-    padding: 10px 0;
-}
-
 @media (max-width: 600px) {
-    header, section, footer {
+    header, footer {
         width: 90%;
         margin: 10px auto;
     }
+}
+
+/* Index Page Specific Styles */
+#index-page header {
+    background-color: #f9f9f9;
+}
+
+#index-page section {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px #ccc;
+    margin-top: 20px;
+}
+
+/* AstroApp Page Specific Styles */
+#astroapp-page header {
+    background-color: #e6f7ff;
+}
+
+#astroapp-page section {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #cce7ff;
+    box-shadow: 0 0 10px #cce7ff;
+    margin-top: 20px;
+}
+
+
+/* Contact Page Specific Styles */
+#contact-page header {
+    background-color: #fffbe6;
+}
+
+#contact-page section {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px #ccc;
+    margin-top: 20px;
+}
+
+#contact-page form {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ffe7c2;
+    box-shadow: 0 0 10px #ffe7c2;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-page label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#contact-page input, #contact-page textarea, #contact-page button {
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact-page button {
+    margin-top: 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#contact-page button:hover {
+    background-color: #0056b3;
+}
+
+
+#privacy-page header {
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #ccc;
+}
+
+#privacy-page main {
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px #ccc;
+}
+
+#privacy-page section {
+    margin-bottom: 20px;
+}
+
+#privacy-page h2 {
+    color: #444;
+    margin-top: 20px;
 }
