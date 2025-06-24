@@ -1,12 +1,21 @@
 /* General Styles */
-body {
+/* body {
     font-family: 'Courier New', Courier, monospace;
     line-height: 1.6;
     margin: 0;
     padding: 0;
     color: #333;
-    background-color: #f4f4f4;
-}
+    background-image: "rippednotes.jpg";
+} */
+
+body {
+    background-image: url('assets/grunge-paper-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Courier', serif; /* Typewriter style */
+    color: #222; /* Optional: makes text easier to read */
+  }
 
 header, footer {
     width: 80%;
